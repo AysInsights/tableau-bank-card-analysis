@@ -19,6 +19,10 @@ This project analyzes bank card transactions from 2024 to 2025 using Tableau Pub
 - The Mass segment has the highest distinct customer count among the displayed customer segments.
 - Baku has the highest transaction activity among the displayed regions.
 
+## Dashboard Preview
+
+![Tableau Dashboard](tableau_dashboard.png)
+
 ## Files
 - `Bank Card Transactions Analysis 2024–2025.twbx` — Tableau workbook.
 
