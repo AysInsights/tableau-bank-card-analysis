@@ -1,1 +1,57 @@
+# Lesson 29 — Tableau Core Visualizations
 
+## Project Overview
+This lesson focuses on selecting the right visualization for a business question and communicating insights through charts and KPI cards.
+
+## Homework — 6 Visualizations, 6 Insights
+
+### T1 — Customer Segments
+**Chart:** Bar chart  
+**Measures:** SUM(Amount AZN), COUNTD(Customer ID)  
+**Filter:** Year = 2025  
+**Insight:** In 2025, the Premium segment had the fewest unique customers (176) but generated the highest total transaction amount (339,287 AZN).
+
+### T2 — Declined Transactions by Month
+**Chart:** Line chart  
+**Filters:** Status = Declined, Year = 2025  
+**Color:** Channel  
+**Insight:** Declined transaction counts varied by channel, with a sharp spike in the Online channel in August followed by a steep drop in September.
+
+### T3 — Merchant Transaction Patterns
+**Chart:** Scatter plot  
+**Measures:** COUNT and AVG(Amount AZN)  
+**Color:** Category  
+**Insight:** Some merchants in the Travel and Grocery categories had relatively few transactions but high average transaction amounts.
+
+### T4 — Credit Limit Distribution
+**Chart:** Histogram  
+**Field:** Cards.Credit_Limit_AZN  
+**Bin sizes compared:** 500 AZN and 1,000 AZN  
+**Insight:** A 500 AZN bin size shows the credit-limit distribution in greater detail, while a 1,000 AZN bin size groups values into broader intervals.
+
+### T5 — Declined Transactions by Region and Month
+**Chart:** Heatmap  
+**Filters:** Status = Declined, Year = 2025  
+**Measure:** Percent of Total (Table Across)  
+**Insight:** Baku accounted for the largest share of declined transaction amounts across the displayed months, including the second half of 2025.
+
+### T6 — KPI Cards
+**Worksheets:** Four separate KPI views  
+- Total transaction amount: 883,591 AZN
+- Total transaction count: 15,124
+- Average transaction amount: 58.42 AZN
+- Active cards: 2,445
+
+**Purpose:** These KPI views summarize the main transaction metrics for 2025 and will be used in the Lesson 31 dashboard.
+
+## Files
+- `Bank Card Transactions Analysis 2024–2025.twbx` — Tableau workbook
+- `Tableau_Lesson_29_Dashboard.png` — dashboard screenshot
+
+## Tools
+- Tableau Public
+- Data Visualization
+- Dashboard Design
+
+## Author
+AysInsights
